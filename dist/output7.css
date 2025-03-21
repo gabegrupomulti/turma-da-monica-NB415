@@ -1,0 +1,1052 @@
+.dji-lamina *,
+.dji-lamina ::before,
+.dji-lamina ::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+.dji-lamina ::before,
+.dji-lamina ::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+.dji-lamina html,
+.dji-lamina :host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+.dji-lamina body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+.dji-lamina hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+.dji-lamina abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+/* .dji-lamina h1,
+.dji-lamina h2,
+.dji-lamina h3,
+.dji-lamina h4,
+.dji-lamina h5,
+.dji-lamina h6 {
+  font-size: inherit;
+  font-weight: inherit;
+} */
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+.dji-lamina a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+.dji-lamina b,
+.dji-lamina strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+.dji-lamina code,
+.dji-lamina kbd,
+.dji-lamina samp,
+.dji-lamina pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+.dji-lamina small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+.dji-lamina sub,
+.dji-lamina sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.dji-lamina sub {
+  bottom: -0.25em;
+}
+
+.dji-lamina sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+.dji-lamina table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+.dji-lamina button,
+.dji-lamina input,
+.dji-lamina optgroup,
+.dji-lamina select,
+.dji-lamina textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+.dji-lamina button,
+.dji-lamina select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+.dji-lamina button,
+.dji-lamina [type='button'],
+.dji-lamina [type='reset'],
+.dji-lamina [type='submit'] {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+.dji-lamina :-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+.dji-lamina :-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+.dji-lamina progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+.dji-lamina ::-webkit-inner-spin-button,
+.dji-lamina ::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.dji-lamina [type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+.dji-lamina ::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.dji-lamina ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+.dji-lamina summary {
+  display: list-item;
+}
+
+.dji-lamina blockquote,
+.dji-lamina dl,
+.dji-lamina dd,
+.dji-lamina h1,
+.dji-lamina h2,
+.dji-lamina h3,
+.dji-lamina h4,
+.dji-lamina h5,
+.dji-lamina h6,
+.dji-lamina hr,
+.dji-lamina figure,
+.dji-lamina p,
+.dji-lamina pre {
+  margin: 0;
+}
+
+.dji-lamina fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.dji-lamina legend {
+  padding: 0;
+}
+
+.dji-lamina ol,
+.dji-lamina ul,
+.dji-lamina menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dji-lamina dialog {
+  padding: 0;
+}
+
+.dji-lamina textarea {
+  resize: vertical;
+}
+
+.dji-lamina input::-moz-placeholder, .dji-lamina textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+.dji-lamina input::placeholder,
+.dji-lamina textarea::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+.dji-lamina button,
+.dji-lamina [role="button"] {
+  cursor: pointer;
+}
+
+.dji-lamina :disabled {
+  cursor: default;
+}
+
+.dji-lamina video{
+  max-width: 100%;
+}
+
+.dji-lamina img,
+.dji-lamina svg,
+.dji-lamina video,
+.dji-lamina canvas,
+.dji-lamina audio,
+.dji-lamina iframe,
+.dji-lamina embed,
+.dji-lamina object {
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
+}
+
+.dji-lamina img,
+.dji-lamina video {
+  max-width: 100%;
+  height: auto;
+}
+
+.dji-lamina [hidden] {
+  display: none;
+}
+
+.dji-lamina *,
+.dji-lamina ::before,
+.dji-lamina ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+.dji-lamina ::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+.dji-lamina .invisible {
+  visibility: hidden;
+}
+
+.dji-lamina .absolute {
+  position: absolute;
+}
+
+.dji-lamina .relative {
+  position: relative;
+}
+
+.dji-lamina .-left-\[30\%\] {
+  left: -30%;
+}
+
+.dji-lamina .bottom-0 {
+  bottom: 0px;
+}
+
+.dji-lamina .right-0 {
+  right: 0px;
+}
+
+.dji-lamina .top-0 {
+  top: 0px;
+}
+
+.dji-lamina .z-0 {
+  z-index: 0;
+}
+
+.dji-lamina .z-10 {
+  z-index: 10;
+}
+
+.dji-lamina .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dji-lamina .mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.dji-lamina .mb-16 {
+  margin-bottom: 4rem;
+}
+
+.dji-lamina .mb-20 {
+  margin-bottom: 5rem;
+}
+
+.dji-lamina .mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+
+.dji-lamina .mb-3\.5 {
+  margin-bottom: 0.875rem;
+}
+
+.dji-lamina .mb-4 {
+  margin-bottom: 1rem;
+}
+
+.dji-lamina .mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.dji-lamina .mb-8 {
+  margin-bottom: 2rem;
+}
+
+.dji-lamina .mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.dji-lamina .-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.dji-lamina .flex {
+  display: flex;
+}
+
+.dji-lamina .hidden {
+  display: none;
+}
+
+.dji-lamina .h-96 {
+  height: 24rem;
+}
+
+.dji-lamina .h-\[498px\] {
+  height: 498px;
+}
+
+.dji-lamina .h-full {
+  height: 100%;
+}
+
+.dji-lamina .w-64 {
+  width: 16rem;
+}
+
+.dji-lamina .w-full {
+  width: 100%;
+}
+
+.dji-lamina .max-w-\[1585px\] {
+  max-width: 1585px;
+}
+
+.dji-lamina .max-w-\[1920px\] {
+  max-width: 1920px;
+}
+
+.dji-lamina .max-w-\[250px\] {
+  max-width: 250px;
+}
+
+.dji-lamina .max-w-\[508px\] {
+  max-width: 508px;
+}
+
+.dji-lamina .max-w-\[980px\] {
+  max-width: 980px;
+}
+
+.dji-lamina .max-w-md {
+  max-width: 28rem;
+}
+
+.dji-lamina .flex-1 {
+  flex: 1 1 0%;
+}
+
+.dji-lamina .flex-col {
+  flex-direction: column;
+}
+
+.dji-lamina .flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.dji-lamina .items-center {
+  align-items: center;
+}
+
+.dji-lamina .justify-center {
+  justify-content: center;
+}
+
+.dji-lamina .justify-between {
+  justify-content: space-between;
+}
+
+.dji-lamina .gap-8 {
+  gap: 2rem;
+}
+
+.dji-lamina .gap-9 {
+  gap: 2.25rem;
+}
+
+.dji-lamina .gap-\[10px\] {
+  gap: 10px;
+}
+
+.dji-lamina .gap-x-9 {
+  -moz-column-gap: 2.25rem;
+       column-gap: 2.25rem;
+}
+
+.dji-lamina .space-y-7 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
+}
+
+.dji-lamina .self-start {
+  align-self: flex-start;
+}
+
+.dji-lamina .overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.dji-lamina .whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.dji-lamina .rounded-full {
+  border-radius: 9999px;
+}
+
+.dji-lamina .bg-\[\#F04E6E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 78 110 / var(--tw-bg-opacity));
+}
+
+.dji-lamina .bg-\[\#FFEFDD\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 239 221 / var(--tw-bg-opacity));
+}
+
+.dji-lamina .bg-\[\#FFF1E2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 241 226 / var(--tw-bg-opacity));
+}
+
+.dji-lamina .object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.dji-lamina .px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.dji-lamina .px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.dji-lamina .py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.dji-lamina .px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.dji-lamina .px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.dji-lamina .pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.dji-lamina .pb-16 {
+  padding-bottom: 4rem;
+}
+
+.dji-lamina .pr-4 {
+  padding-right: 1rem;
+}
+
+.dji-lamina .pt-14 {
+  padding-top: 3.5rem;
+}
+
+.dji-lamina .pt-24 {
+  padding-top: 6rem;
+}
+
+.dji-lamina .text-left {
+  text-align: left;
+}
+
+.dji-lamina .text-center {
+  text-align: center;
+}
+
+.dji-lamina .text-right {
+  text-align: right;
+}
+
+.dji-lamina .font-montserrat {
+  font-family: Montserrat;
+}
+
+.dji-lamina .text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.dji-lamina .text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.dji-lamina .text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.dji-lamina .text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.dji-lamina .text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.dji-lamina .font-black {
+  font-weight: 900;
+}
+
+.dji-lamina .font-bold {
+  font-weight: 700;
+}
+
+.dji-lamina .font-light {
+  font-weight: 300;
+}
+
+.dji-lamina .font-medium {
+  font-weight: 500;
+}
+
+.dji-lamina .font-normal {
+  font-weight: 400;
+}
+
+.dji-lamina .uppercase {
+  text-transform: uppercase;
+}
+
+.dji-lamina .leading-\[110\.345\%\] {
+  line-height: 110.345%;
+}
+
+.dji-lamina .leading-\[111\.111\%\] {
+  line-height: 111.111%;
+}
+
+.dji-lamina .leading-\[117\.391\%\] {
+  line-height: 117.391%;
+}
+
+.dji-lamina .leading-\[81\%\] {
+  line-height: 81%;
+}
+
+.dji-lamina .text-\[\#726DA3\] {
+  --tw-text-opacity: 1;
+  color: rgb(114 109 163 / var(--tw-text-opacity));
+}
+
+.dji-lamina .text-\[\#F8E620\] {
+  --tw-text-opacity: 1;
+  color: rgb(248 230 32 / var(--tw-text-opacity));
+}
+
+.dji-lamina .text-\[\#FFEFDD\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 239 221 / var(--tw-text-opacity));
+}
+
+.dji-lamina .text-\[\#FFF1E2\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 241 226 / var(--tw-text-opacity));
+}
+
+.dji-lamina .text-white {
+  --tw-text-opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .dji-lamina .md\:w-auto {
+    width: auto;
+  }
+
+  .dji-lamina .md\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dji-lamina .lg\:visible {
+    visibility: visible;
+  }
+
+  .dji-lamina .lg\:absolute {
+    position: absolute;
+  }
+
+  .dji-lamina .lg\:-left-\[15\.5\%\] {
+    left: -15.5%;
+  }
+
+  .dji-lamina .lg\:-right-\[20\%\] {
+    right: -20%;
+  }
+
+  .dji-lamina .lg\:top-0 {
+    top: 0px;
+  }
+
+  .dji-lamina .lg\:ml-\[151px\] {
+    margin-left: 151px;
+  }
+
+  .dji-lamina .lg\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .dji-lamina .lg\:block {
+    display: block;
+  }
+
+  .dji-lamina .lg\:h-\[1091px\] {
+    height: 1091px;
+  }
+
+  .dji-lamina .lg\:h-\[653px\] {
+    height: 653px;
+  }
+
+  .dji-lamina .lg\:h-auto {
+    height: auto;
+  }
+
+  .dji-lamina .lg\:h-full {
+    height: 100%;
+  }
+
+  .dji-lamina .lg\:h-\[553px\] {
+    height: 553px;
+  }
+
+  .dji-lamina .lg\:h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .dji-lamina .lg\:h-\[554px\] {
+    height: 554px;
+  }
+
+  .dji-lamina .lg\:h-\[1000px\] {
+    height: 1000px;
+  }
+
+  .dji-lamina .lg\:h-\[800px\] {
+    height: 800px;
+  }
+
+  .dji-lamina .lg\:h-\[900px\] {
+    height: 900px;
+  }
+
+  .dji-lamina .lg\:w-\[498px\] {
+    width: 498px;
+  }
+
+  .dji-lamina .lg\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .dji-lamina .lg\:w-full {
+    width: 100%;
+  }
+
+  .dji-lamina .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .dji-lamina .lg\:items-end {
+    align-items: flex-end;
+  }
+
+  .dji-lamina .lg\:gap-12 {
+    gap: 3rem;
+  }
+
+  .dji-lamina .lg\:self-start {
+    align-self: flex-start;
+  }
+
+  .dji-lamina .lg\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
+  .dji-lamina .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .dji-lamina .lg\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .dji-lamina .lg\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .dji-lamina .lg\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .dji-lamina .lg\:text-left {
+    text-align: left;
+  }
+
+  .dji-lamina .lg\:text-right {
+    text-align: right;
+  }
+
+  .dji-lamina .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .dji-lamina .lg\:text-\[200px\] {
+    font-size: 200px;
+  }
+
+  .dji-lamina .lg\:text-\[23px\] {
+    font-size: 23px;
+  }
+
+  .dji-lamina .lg\:text-\[29px\] {
+    font-size: 29px;
+  }
+
+  .dji-lamina .lg\:text-\[45px\] {
+    font-size: 45px;
+  }
+
+  .dji-lamina .lg\:text-\[55px\]\/\[154\.545\%\] {
+    font-size: 55px;
+    line-height: 154.545%;
+  }
+
+  .dji-lamina .lg\:text-\[65px\] {
+    font-size: 65px;
+  }
+
+  .dji-lamina .lg\:text-\[80px\]\/\[85px\] {
+    font-size: 80px;
+    line-height: 85px;
+  }
+
+  .dji-lamina .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .dji-lamina .full-hd\:w-auto {
+    width: auto;
+  }
+
+  .dji-lamina .full-hd\:pt-20 {
+    padding-top: 5rem;
+  }
+  
+}
+
+
+.dji-lamina .showcase__paragraph{
+  z-index: 2;
+}
